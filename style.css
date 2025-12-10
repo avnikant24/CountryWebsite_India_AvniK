@@ -2,9 +2,40 @@ nav{
   padding:2px
 }
 nav a{
-  color:rgb(255, 169, 8);
+  color:rgb(70, 21, 9);
+  font-family:Verdana;
   margin:0 10px 0 10px;
   display:inline-block;
-  width:20%;
+  width:75%;
   text-align:center;
+  font-size:18pt;
+  text-decoration:none;
+}
+
+nav a:hover{
+  border-bottom: 3px solid rgb(46, 51, 124);
+}
+
+.container{
+  display:flex
+}
+
+body{
+  background-image: url("https://t3.ftcdn.net/jpg/06/27/63/68/360_F_627636845_9PdJCZYYUIZ8IpviYs3zxC3regZLNXTp.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:center;
+}
+
+.container{
+  display:flex;
+}
+
+.container div{
+  flex:1;
+}
+
+.container div{
+  font-family:Cambria;
+  font-size:25px;
 }
