@@ -1,19 +1,25 @@
+#heading{
+  font-size:20px;
+  text-align:center;
+  color:rgb(70, 21, 9);
+  font-weight:bold;
+}
 nav{
   padding:2px
 }
 nav a{
   color:rgb(70, 21, 9);
-  font-family:Verdana;
+  font-family:fantasy;
   margin:0 10px 0 10px;
   display:inline-block;
   width:75%;
   text-align:center;
-  font-size:18pt;
+  font-size:14pt;
   text-decoration:none;
 }
 
 nav a:hover{
-  border-bottom: 3px solid rgb(46, 51, 124);
+  border-bottom: 2px solid rgb(0, 0, 0);
 }
 
 .container{
@@ -21,7 +27,7 @@ nav a:hover{
 }
 
 body{
-  background-image: url("https://t3.ftcdn.net/jpg/06/27/63/68/360_F_627636845_9PdJCZYYUIZ8IpviYs3zxC3regZLNXTp.jpg");
+  background-image: url("Indiaback.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position:center;
@@ -39,3 +45,26 @@ body{
   font-family:Cambria;
   font-size:25px;
 }
+
+* {
+  box-sizing: border-box;
+}
+
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.side {
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+.main {
+  flex: 70%;
+  background-color: white; 
+  padding: 20px; 
+}
+
