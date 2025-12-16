@@ -60,9 +60,8 @@ nav a:hover{
 }
 
 .flag{
-  padding:25px;
   text-align:center;
-  transform: translateY(-100px);
+  transform: translateY(25px);
   height:230px;
   width: 320px; 
 }
@@ -70,7 +69,14 @@ nav a:hover{
 body{
   background-image: url("wall.jpg");
   background-repeat: no-repeat;
-  background-position: center; /* Centers the image */
+  background-position: center; 
+  background-size: cover;
+}
+
+.food{
+  background-image: url("beige.jpg");
+  background-repeat: no-repeat;
+  background-position: center; 
   background-size: cover;
 }
 
@@ -125,7 +131,7 @@ body{
   transition: transform 0.8s;
 }
 
-.main {
+.main{
   flex: 0%;
   background-color: white; 
   padding: 50px; 
