@@ -3,9 +3,25 @@
   padding:25px;
   font-size:100px;
   text-align: center; 
-  color: rgb(123, 27, 27); 
+  color: rgb(10, 53, 12); 
   font-weight:bold;
 }
+
+.header2{
+  font-family:'Lucida Handwriting', cursive;
+  padding:25px;
+  font-size:30px;
+  text-align: center; 
+  color: rgb(255, 255, 255); 
+  font-weight:bold;
+}
+
+.header2:hover{
+  transform: scale(1.1);
+  transition: transform 1s;
+}
+
+
 
 .header:hover{
   transform: scale(1.1);
@@ -21,6 +37,18 @@ nav{
 }
 nav a{
   color:rgb(0, 0, 0);
+  font-family: 'Lucida Handwriting', cursive;
+  font-weight:bold;
+  margin:0 10px 0 10px;
+  display:inline-block;
+  width:75%;
+  text-align:center;
+  font-size:18pt;
+  text-decoration:none;
+}
+
+nav a{
+  color:rgb(128, 24, 24);
   font-family: 'Lucida Handwriting', cursive;
   font-weight:bold;
   margin:0 10px 0 10px;
@@ -74,7 +102,7 @@ body{
 }
 
 .food{
-  background-image: url("beige.jpg");
+  background-image: url("ancient.jpg");
   background-repeat: no-repeat;
   background-position: center; 
   background-size: cover;
