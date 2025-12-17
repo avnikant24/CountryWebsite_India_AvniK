@@ -314,4 +314,36 @@ footer {
     }
 }
 
+.gallery-container {
+  display: flex;
+  flex-wrap: wrap; /* Allows items to wrap onto multiple lines */
+  gap: 1.5em; /* Adds consistent space between items */
+  justify-content: center; /* Centers the items in the container */
+  padding: 1em;
+}
 
+.gallery-item {
+  display: flex;
+  flex-flow: column; 
+  margin: 0; 
+  flex-basis: 250px; 
+  flex-grow: 1;
+  max-width: 350px; 
+  box-sizing: border-box; 
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto; 
+  object-fit: cover;
+  display: block;
+}
+
+.gallery-item figcaption {
+  padding: 0.5em 0.2em;
+  text-align: center;
+  font-size: 0.9em;
+  color: #333;
+  background-color: #f9f9f9;
+  border-top: 1px solid #631212;
+}
