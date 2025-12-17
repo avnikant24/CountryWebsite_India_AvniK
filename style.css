@@ -12,7 +12,7 @@
   padding:25px;
   font-size:30px;
   text-align: center; 
-  color: rgb(255, 255, 255); 
+  color: rgb(92, 25, 25); 
   font-weight:bold;
 }
 
@@ -21,7 +21,33 @@
   transition: transform 1s;
 }
 
+.header3{
+  font-family:'Lucida Handwriting', cursive;
+  padding:25px;
+  font-size:25px;
+  text-align: center; 
+  color: rgb(22, 75, 12); 
+  font-weight:bold;
+}
 
+.header3:hover{
+  transform: scale(1.1);
+  transition: transform 1s;
+}
+
+.header4{
+  font-family:'Lucida Handwriting', cursive;
+  padding:25px;
+  font-size:25px;
+  text-align: center; 
+  color: rgb(22, 62, 33); 
+  font-weight:bold;
+}
+
+.header4:hover{
+  transform: scale(1.1);
+  transition: transform 1s;
+}
 
 .header:hover{
   transform: scale(1.1);
@@ -290,13 +316,13 @@ footer {
 }
 
 .footer-section a:hover, .footer-section a:focus {
-    color: #690d0d; /* Change color on hover */
+    color: #690d0d; 
     text-decoration: underline;
 }
 
 @media (max-width: 768px) {
     .footer-container {
-        flex-direction: column; /* Stacks sections vertically on mobile */
+        flex-direction: column;
         text-align: center;
     }
     
@@ -309,16 +335,16 @@ footer {
     }
 
     .footer-section a {
-        display: inline; /* Keep social links inline for better look */
+        display: inline; 
         margin: 0 5px;
     }
 }
 
 .gallery-container {
   display: flex;
-  flex-wrap: wrap; /* Allows items to wrap onto multiple lines */
-  gap: 1.5em; /* Adds consistent space between items */
-  justify-content: center; /* Centers the items in the container */
+  flex-wrap: wrap; 
+  gap: 1.5em;
+  justify-content: center; 
   padding: 1em;
 }
 
@@ -340,10 +366,202 @@ footer {
 }
 
 .gallery-item figcaption {
+  font-family:Cambria;
   padding: 0.5em 0.2em;
   text-align: center;
-  font-size: 0.9em;
+  font-size: 1.1em;
   color: #333;
   background-color: #f9f9f9;
   border-top: 1px solid #631212;
+}
+
+.container3{
+  display: flex;
+  align-items: center; 
+  gap: 5px; 
+  flex-direction: column;
+}
+
+.text-column3{
+  background-color: #fed0ff;
+  border-radius: 10px;
+  color: rgb(0, 0, 0);
+  font-family:Cambria;
+  font-size: 20px;
+  text-align: center;
+  order:-1;
+  position: relative;
+  top: -640px; 
+  left: -445px; 
+  padding: 20px;         
+  max-width: 600px;       
+  margin: 0 auto;         
+  margin-top: 20px;        
+  box-sizing: border-box;
+}
+
+.text-column3:hover{
+  transform:scale(1.03);
+  transition: transform 0.8s;
+}
+
+.dhokla1:hover{
+  filter: sepia(60%);
+  transform:scale(0.98);
+  transition: transform 0.5s;
+}
+
+.jalebi:hover{
+  filter: grayscale(50%);
+  transform:scale(0.98);
+  transition: transform 0.5s;
+}
+
+.samosas:hover{
+  filter: contrast(80%);
+  transform:scale(0.98);
+  transition: transform 0.5s;
+}
+
+.katli:hover{
+  filter:sepia(70%);
+  transform:scale(0.98);
+  transition: transform 0.5s;
+}
+
+.thali:hover{
+  filter:opacity(70%);
+  transform:scale(0.98);
+  transition: transform 0.5s;
+}
+
+.chana:hover{
+  filter:brightness(70%);
+  transform:scale(0.98);
+  transition: transform 0.5s;
+}
+
+.pakoras:hover{
+  filter:opacity(70%);
+  transform:scale(0.98);
+  transition: transform 0.5s;
+}
+
+.paneer:hover{
+  filter:sepia(70%);
+  transform:scale(0.98);
+  transition: transform 0.5s;
+}
+
+.dosa:hover{
+  transform:scale(0.98);
+  transition: transform 0.5s;
+}
+
+.gulab:hover{
+  filter:opacity(70%);
+  transform:scale(0.98);
+  transition: transform 0.5s;
+}
+
+.main-layout {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 20px;
+}
+
+.left-column, .right-column {
+  width: 25%;
+}
+
+.center-column {
+  width: 45%;
+  background-color: #901b1b;
+  color: white;
+  font-family: Cambria;
+  font-size: 28px;
+  text-align: center;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.landmark img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.caption {
+  background-color:#f9f9f9;
+  font-family:Cambria;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 8px;
+}
+
+.gate{
+  border-radius:10px;
+  height:350px;
+  width: 320px;
+}
+
+.lotus{
+  border-radius:10px;
+  height:350px;
+  width: 320px;
+}
+
+.main-layout2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 20px;
+}
+
+.left-column2, .right-column2 {
+  width: 25%;
+}
+
+.center-column2 {
+  width: 45%;
+  background-color: #182a0a;
+  color: white;
+  font-family: Cambria;
+  font-size: 32px;
+  text-align: center;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.landmark img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.caption2{
+  background-color:#f9f9f9;
+  font-family:Cambria;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 8px;
+}
+
+.holi{
+  border-radius:10px;
+  height:300px;
+  width: 360px;
+}
+
+.kathak{
+  border-radius:10px;
+  height:300px;
+  width: 320px;
+}
+
+.clothes{
+  border-radius:10px;
+  height:400px;
+  width: 320px;
 }
